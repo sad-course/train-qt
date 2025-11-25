@@ -44,10 +44,16 @@ border: 2px solid black;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: blue</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrilho02">
@@ -77,10 +83,16 @@ border: 2px solid black;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: green</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrilho04">
@@ -104,16 +116,22 @@ border: 2px solid black;</string>
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>260</y>
+      <y>270</y>
       <width>20</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: white</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrem03">
@@ -126,10 +144,18 @@ border: 2px solid black;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: red
+
+</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrilho03">
@@ -159,10 +185,16 @@ border: 2px solid black;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: cyan</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrilho05">
@@ -195,10 +227,16 @@ border: 2px solid black;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: orange</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrem06">
@@ -211,10 +249,16 @@ border: 2px solid black;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: red</string>
+     <string notr="true">background-color: violet</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="trem-ico.qrc">:/images/trem.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="labelTrilho06">
@@ -237,6 +281,7 @@ border: 2px solid black;</string>
      <string/>
     </property>
    </widget>
+   <zorder>labelTrilho06</zorder>
    <zorder>labelTrilho04</zorder>
    <zorder>labelTrilho05</zorder>
    <zorder>labelTrilho03</zorder>
@@ -244,12 +289,11 @@ border: 2px solid black;</string>
    <zorder>labelTrilho01</zorder>
    <zorder>labelTrem03</zorder>
    <zorder>labelTrem05</zorder>
-   <zorder>labelTrilho06</zorder>
-   <zorder>labelTrem06</zorder>
    <zorder>labelTrem02</zorder>
    <zorder>labelTrem04_1</zorder>
    <zorder>labelTrem01</zorder>
    <zorder>labelTrem04_2</zorder>
+   <zorder>labelTrem06</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -272,6 +316,8 @@ border: 2px solid black;</string>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="trem-ico.qrc"/>
+ </resources>
  <connections/>
 </ui>

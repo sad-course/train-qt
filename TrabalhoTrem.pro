@@ -23,3 +23,9 @@ FORMS    += mainwindow.ui
 
 CONFIG  += c++11
 LIBS += -pthread
+
+DISTFILES += \
+    trem.png
+
+RESOURCES += \
+    trem-ico.qrc
