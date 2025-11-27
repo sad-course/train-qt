@@ -1,21 +1,26 @@
-#ifndef TREM_H
-#define TREM_H
+#ifndef TRAIN_H
+#define TRAIN_H
 
 #include <QObject>
 #include <thread>
 #include <chrono>
 using namespace std;
 
-class Trem : public QObject
+class Train : public QObject
 {
     Q_OBJECT
 public:
-    Trem(int,int,int);
-    ~Trem();
+    Train(int,int,int,std::string);
+    ~Train();
     void start();
     void run();
-    void setVelocidade(int);
+    void setVelocity(int);
     void setEnable(bool);
+
+    int getId();
+
+    void setLabel(std::string);
+    std::string getLabel();
 
 signals:
     void updateGUI(int,int,int);
@@ -25,8 +30,9 @@ private:
    int id;
    int x;
    int y;
-   int velocidade;
+   int velocity;
    bool enable;
+   std::string label;
 };
 
-#endif // TREM_H
+#endif // TRAIN_H

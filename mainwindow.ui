@@ -37,7 +37,7 @@ border: 2px solid black;</string>
    <widget class="QLabel" name="labelTrem01">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>260</x>
       <y>120</y>
       <width>20</width>
       <height>20</height>
@@ -76,7 +76,7 @@ border: 2px solid black;</string>
    <widget class="QLabel" name="labelTrem02">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>340</x>
       <y>120</y>
       <width>20</width>
       <height>20</height>
@@ -112,7 +112,7 @@ border: 2px solid black;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="labelTrem04_1">
+   <widget class="QLabel" name="labelTrem04">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -175,7 +175,7 @@ border: 2px solid black;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="labelTrem04_2">
+   <widget class="QLabel" name="labelTrem05">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -217,7 +217,7 @@ border: 2px solid black;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="labelTrem05">
+   <widget class="QLabel" name="labelTrem06">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -239,7 +239,7 @@ border: 2px solid black;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="labelTrem06">
+   <widget class="QLabel" name="labelTrem07">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -288,12 +288,12 @@ border: 2px solid black;</string>
    <zorder>labelTrilho02</zorder>
    <zorder>labelTrilho01</zorder>
    <zorder>labelTrem03</zorder>
-   <zorder>labelTrem05</zorder>
-   <zorder>labelTrem02</zorder>
-   <zorder>labelTrem04_1</zorder>
-   <zorder>labelTrem01</zorder>
-   <zorder>labelTrem04_2</zorder>
    <zorder>labelTrem06</zorder>
+   <zorder>labelTrem02</zorder>
+   <zorder>labelTrem04</zorder>
+   <zorder>labelTrem01</zorder>
+   <zorder>labelTrem05</zorder>
+   <zorder>labelTrem07</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

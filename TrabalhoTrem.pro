@@ -13,15 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    trem.cpp
+        server/windowTrainController.cpp \
+        server/train.cpp
 
-HEADERS  += mainwindow.h \
-    trem.h
+HEADERS  += headers/mainwindow.h \
+    headers/train.h
 
 FORMS    += mainwindow.ui
 
-CONFIG  += c++11
+CONFIG  += c++20
 LIBS += -pthread
 
 DISTFILES += \
