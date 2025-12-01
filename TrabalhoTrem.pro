@@ -14,12 +14,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         server/windowTrainController.cpp \
-        server/train.cpp
+        server/train.cpp \
+        server/socketTCP.cpp \
+        client/windowTrainClientController.cpp
 
 HEADERS  += headers/mainwindow.h \
+    headers/clientwindow.h \
     headers/train.h
 
-FORMS    += mainwindow.ui
+FORMS    += ui/mainwindow.ui \
+    ui/clientwindow.ui
 
 CONFIG  += c++20
 LIBS += -pthread
